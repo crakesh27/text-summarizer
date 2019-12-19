@@ -19,7 +19,7 @@ class Summary(Resource):
 		if args['Ratio']:
 			ratio = args['Ratio']
 		summarized_text = summarize(text, ratio)
-		return {'Topic': summarized_text.split(".")[0], 'Summmary': summarized_text.replace('\n',' ')}
+		return {'Topic': summarized_text.split(".")[0], 'Summary': summarized_text.replace('\n',' ')}
 
 api.add_resource(Summary, '/summary')
 
