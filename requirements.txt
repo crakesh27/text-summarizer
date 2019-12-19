@@ -1,4 +1,4 @@
 Flask
 Flask-RESTful
-genism
+gensim==3.4.0
 uwsgi
