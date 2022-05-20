@@ -1,2 +1,2 @@
 # Text Summerizer
-A simple extractive based text summarizer hosted on herroku
+A simple extractive based text summarizer hosted on heroku
